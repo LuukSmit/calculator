@@ -4,6 +4,10 @@
 
 ## Documentation
 
+alle documentatie over de applictaie kun je vinden in de map documantatie
+
+## Documentation
+
 For a complete overview of our documentation run:
 
 ```sh
