@@ -2,9 +2,9 @@
 <img src="https://cdn-images-1.medium.com/max/512/1*qUlxDdY3T-rDtJ4LhLGkEg.png" alt="React logo" width="256" height="auto">
 
 
-## Documentation
+## Documentatie
 
-alle documentatie over de applictaie kun je vinden in de map documantatie
+alle documentatie over de applictaie kun je vinden in de map: documentation
 
 ## Documentation
 
