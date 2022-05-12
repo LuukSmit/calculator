@@ -1,0 +1,3 @@
+{
+  "extends": "@travpro/eslint-config-travpro"
+}

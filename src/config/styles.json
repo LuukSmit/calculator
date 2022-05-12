@@ -1,0 +1,11 @@
+{
+  "companyColor" : "#f06532",
+  "primaryColor" : "#009abf",
+  "secondaryColor" : "#F7D035",
+  "accentColor" : "#fff",
+  "darkText" : "#252523",
+  "lightText" : "#aaa",
+  "darkColor" : "#333",
+  "lightColor" : "#aaa",
+  "background": "url('https://cdn.travpromobile.com/apptool/app/178/salesCompanion/bg.jpg')"
+}

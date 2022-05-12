@@ -1,0 +1,7 @@
+[defaults]
+url=https://sentry.io/
+org=travpro-mobile
+project=react-template
+
+[auth]
+token=c268d1c0dc4a4814a6296f863b7bf19de28359b7676a4c15afc926129db2dea1

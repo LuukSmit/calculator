@@ -1,0 +1,22 @@
+{
+    "search.exclude": {
+        "**/node_modules": false
+    },
+    "cSpell.words": [
+        "clsx",
+        "corejs",
+        "fancybox",
+        "fontawesome",
+        "fortawesome",
+        "onclickoutside",
+        "outdatedbrowser",
+        "piwik",
+        "sweetalert",
+        "toastify",
+        "travpro",
+        "uglifyjs",
+        "vthumb",
+        "vtrack"
+    ],
+    "compile-hero.disable-compile-files-on-did-save-code": true
+}

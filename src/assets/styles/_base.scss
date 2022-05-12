@@ -1,0 +1,536 @@
+// h1,
+// h2 {
+//   font-family: "Roboto", sans-serif;
+//   font-weight: 600;
+// }
+
+// h3 {
+//   font-family: "Roboto", sans-serif;
+//   font-weight: 600;
+//   letter-spacing: 0.3rem;
+//   font-size: 3.2rem;
+// }
+
+// h4 {
+//   font-family: "Roboto", sans-serif;
+//   font-weight: 400;
+//   font-size: 2.5rem;
+// }
+
+// h5 {
+//   font-family: "Roboto", sans-serif;
+//   font-size: 2.4rem;
+// }
+
+// h6 {
+//   font-family: "Roboto", sans-serif;
+//   font-size: 2rem;
+//   font-weight: 400;
+// }
+
+// p {
+//   font-family: "Roboto", sans-serif;
+//   font-size: 1.8rem;
+//   word-spacing: 0.05em;
+//   line-height: 1.6em;
+//   font-weight: 300;
+// }
+
+// .subtitle {
+//   margin: 5rem auto;
+//   text-align: center;
+//   font-size: 1.6rem;
+//   color: $light-text;
+// }
+
+// body {
+//   font-family: "Roboto", sans-serif;
+//   font-size: 1.8rem;
+//   word-spacing: 0.05em;
+//   color: $dark-text;
+//   max-width: 100%;
+//   overflow-x: hidden;
+//   margin: 0;
+//   padding: 0;
+//   overflow-y: scroll;
+//   text-rendering: optimizeLegibility;
+//   -moz-osx-font-smoothing: grayscale;
+//   -webkit-font-smoothing: antialiased;
+//   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+// }
+
+// .no-scroll:not(.subApp) {
+//   iframe.grv-widget-tag {
+//     display: none;
+//   }
+// }
+
+// .hidden {
+//   display: none;
+// }
+
+// .disabled {
+//   pointer-events: none;
+//   opacity: 0.5;
+// }
+
+// .no-scroll.subApp,
+// .no-scroll.fileViewer {
+//   overflow: hidden !important;
+// }
+
+// // Encapsulates entire app.
+// .container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   max-width: 100%;
+//   overflow: hidden;
+// }
+
+// .subRouter {
+//   transition: all 250ms cubic-bezier(0.6, 0.23, 0, 0.99);
+// }
+
+// .offsetContainer {
+//   transform: translateX(-400px);
+// }
+
+// // Encapsulates main navigation routes between Header & Footer.
+// .viewContainer {
+//   flex-grow: 1;
+//   display: flex;
+//   // margin-top: $nav-height;
+//   min-height: 100vh;
+//   width: 100%;
+// }
+
+// .backgroundImage {
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   background-size: cover;
+
+//   height: 100%;
+//   width: 100%;
+//   position: fixed;
+//   top: 0;
+//   z-index: -4;
+
+//   transition: opacity 200ms;
+// }
+
+// .backgroundImage.subApp {
+//   display: none;
+// }
+
+// .backgroundImage.darken {
+//   filter: brightness(50%);
+// }
+
+// .backgroundVideo {
+//   top: 50%;
+//   left: 50%;
+//   -webkit-transform: translate(-50%, -50%);
+//   -moz-transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+//   transform: translateX(-50%) translateY(-50%);
+//   min-width: 100%;
+//   min-height: 100%;
+//   height: auto;
+//   width: auto;
+//   overflow: hidden;
+//   position: fixed;
+//   z-index: -3;
+
+//   transition: opacity 250ms;
+// }
+
+// // Encapsulates actual components.
+// .contentContainer {
+//   max-width: 130rem;
+//   margin: 0 auto;
+//   margin-top: $nav-height;
+//   padding: $l-size 0 0 0;
+//   color: white;
+//   flex-grow: 1;
+//   flex-shrink: 1;
+//   background-color: transparent;
+//   box-sizing: border-box;
+// }
+
+// .homeContainer {
+//   margin: $l-size auto;
+//   color: white;
+//   flex-grow: 1;
+// }
+
+// // Global styles.
+// button {
+//   background-color: $primary-color;
+//   border: none;
+//   border-radius: $l-size;
+//   color: white;
+//   cursor: pointer;
+//   padding: 1.5rem 3.2rem;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-block;
+//   font-size: $m-size;
+//   margin: 4px 2px;
+//   transition: background-color 0.3s;
+//   outline: 0;
+// }
+
+// button:hover {
+//   background-color: darken($primary-color, 10%);
+//   transition: background-color 0.3s;
+// }
+
+// button:disabled {
+//   opacity: 0.5;
+//   cursor: default;
+//   outline: 0;
+// }
+
+// button:focus {
+//   outline: 0;
+// }
+
+// button.image__button {
+//   background: none;
+//   border: none;
+// }
+
+// .btnInverse {
+//   background-color: transparent;
+//   color: white;
+//   border: none;
+//   text-transform: uppercase;
+// }
+
+// .btnInverse:hover {
+//   text-decoration: underline;
+//   color: darken(white, 5%);
+//   background-color: transparent;
+// }
+
+// // Reset default styling
+// ul {
+//   list-style: none;
+// }
+
+// a {
+//   text-decoration: none;
+//   color: white;
+// }
+
+// // Default settings for MessageHandler
+// #questionText {
+//   opacity: 0;
+//   transition: opacity 500ms;
+// }
+
+// // TEMPORARY FOR DEMO
+// .backVideo {
+//   position: absolute;
+//   z-index: -2;
+//   width: 100%;
+// }
+
+// // Load handling
+// .loading {
+//   background-color: whitesmoke;
+//   transition: all 0.2s ease-in;
+// }
+
+// .loading * {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// // SweetAlert
+// .companionSweetAlert {
+//   background-color: white;
+// }
+// .confirm {
+//   background-color: $primary-color !important;
+// }
+
+// // FancyBox
+// .fancybox-button {
+//   background-color: white;
+//   color: $dark-text;
+//   transition: all 0.2s ease;
+// }
+// .fancybox-button:hover {
+//   color: white !important;
+//   background-color: $primary-color !important;
+// }
+// .fancybox-button:focus {
+//   color: white !important;
+//   background-color: $primary-color !important;
+// }
+// .fancybox-share {
+//   background-color: white;
+// }
+// .fancybox-caption {
+//   pointer-events: none;
+// }
+
+// // cookieConsent
+// .cookieConsent {
+//   width: 100%;
+//   background-color: white;
+//   display: flex;
+//   padding: $xs-size $m-size;
+//   justify-content: center;
+//   z-index: 30;
+//   -webkit-box-shadow: 0px 0px 30px 0px rgba(100, 100, 100, 0.3);
+//   -moz-box-shadow: 0px 0px 30px 0px rgba(100, 100, 100, 0.3);
+//   box-shadow: 0px 0px 30px 0px rgba(100, 100, 100, 0.3);
+
+//   .cookieContent {
+//     color: $dark-text;
+//     display: flex;
+//     justify-content: center;
+
+//     svg {
+//       color: $success-color;
+//       font-size: $m-size;
+//       margin-right: $s-size;
+//     }
+
+//     p.cookieText {
+//       font-size: $m-size;
+//     }
+
+//     button.cookieOptOut {
+//       color: $company-color;
+//       font-size: 1.3rem;
+//     }
+//   }
+
+//   .cookieBtn {
+//     color: white;
+//     background-color: $company-color;
+//     font-size: 1.3rem;
+//     padding: 1.3rem 2.8rem;
+//   }
+//   .cookieBtn:hover {
+//     background-color: $success-color;
+//   }
+// }
+
+// .demoConsent {
+//   background-color: $company-color;
+
+//   .demoBtn {
+//     font-size: 1.3rem;
+//     padding: 1.3rem 2.8rem;
+//     margin-left: 2rem;
+//     background-color: $success-color;
+//     text-transform: uppercase;
+//   }
+//   .demoBtn:hover {
+//     background-color: darken($success-color, 10%);
+//   }
+//   p {
+//     color: white;
+//   }
+// }
+
+// // Breadcrumbs
+// .breadcrumb__List {
+//   margin: $s-size 0;
+//   padding-left: $xl-size;
+
+//   .breadcrumb__item {
+//     display: inline;
+//     padding: 0;
+
+//     a {
+//       color: $light-text;
+//     }
+//     a:hover {
+//       color: $primary-color;
+//     }
+
+//     .breadcrumb__separator {
+//       padding: 0 $xs-size;
+//       color: $light-text;
+//     }
+//   }
+
+//   .breadcrumb__item--active {
+//     color: $primary-color;
+//     display: inline;
+//   }
+// }
+
+// .breadcrumb__List.carousel {
+//   position: absolute;
+//   top: 15rem;
+// }
+
+// @media print {
+//   iframe,
+//   #printCover {
+//     visibility: hidden !important;
+//   }
+// }
+
+// .fancybox-download__button--pt {
+//   background: #42a95d;
+// }
+
+// .fancybox-download__button {
+//   border: 0;
+//   border-radius: 3px;
+//   display: inline-block;
+//   font-size: 14px;
+//   font-weight: 700;
+//   line-height: 40px;
+//   margin: 0 5px 10px;
+//   min-width: 130px;
+//   padding: 0 15px;
+//   text-decoration: none;
+//   transition: all 0.2s;
+//   -webkit-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+//   white-space: nowrap;
+// }
+
+// .fancybox-download__button svg {
+//   height: 25px;
+//   margin-right: 7px;
+//   position: relative;
+//   top: -1px;
+//   vertical-align: middle;
+//   width: 25px;
+// }
+
+// .showcase .fancybox-slide--iframe .fancybox-content {
+//   max-width: 910px;
+// }
+
+// // Reset button styles in SweetAlert / Fancybox
+// .sweet-alert {
+//   h2 {
+//     font-size: $ml-size;
+//     margin-bottom: 0;
+//   }
+// }
+
+// .fancybox-container {
+//   button:hover {
+//     background-color: transparent;
+//     color: black;
+
+//     svg:hover {
+//       transform: scale(1.3);
+//       transition: transform 0.2s ease;
+//     }
+
+//     svg:active {
+//       color: $primary-color;
+//     }
+//   }
+// }
+
+// // Base copy style
+// .text__container .bodyContent p a {
+//   text-decoration: underline;
+//   color: $primary-color;
+//   text-align: justify;
+// }
+
+// .text__container {
+//   text-align: justify;
+// }
+
+// .ql-align-justify {
+//   font-size: 2rem !important;
+//   color: #252523;
+// }
+
+// .fancybox-download__button {
+//   text-transform: capitalize;
+// }
+
+// .fancybox-slide--iframe .fancybox-content {
+//   background: #fff;
+//   height: calc(100% - 104px);
+//   margin-bottom: 44px;
+// }
+
+// .cancel {
+//   text-transform: capitalize;
+// }
+
+// // Groove custom widget
+// .grv-widget-tag-bottom-right {
+//   display: block !important;
+// }
+
+// #openWidget {
+//   width: 20rem;
+//   height: 6rem;
+//   background: $primary-color;
+//   padding: 0.3rem;
+//   text-align: center;
+//   font-weight: 900;
+//   color: #fff;
+//   font-family: arial;
+//   font-size: 10pt;
+//   position: fixed;
+//   bottom: 13rem;
+//   right: 1rem;
+//   border: 3px solid;
+//   border-radius: 0.8rem;
+//   cursor: pointer;
+//   display: none;
+//   z-index: 999;
+// }
+
+// #openWidget:focus {
+//   outline: none;
+// }
+
+// #openWidget:after {
+//   content: "";
+//   width: 0px;
+//   height: 0px;
+//   position: absolute;
+//   border-left: 10px solid transparent;
+//   border-right: 10px solid $primary-color;
+//   border-top: 10px solid $primary-color;
+//   border-bottom: 10px solid transparent;
+//   right: 19px;
+//   bottom: -20px;
+//   cursor: pointer;
+// }
+
+// #openWidget .widgetBoxArrow:hover:after {
+//   border-right: 10px solid darken($primary-color, 40%);
+//   border-top: 10px solid darken($primary-color, 40%);
+//   transition: 0.5s;
+// }
+
+// #openWidget:hover {
+//   background: darken($primary-color, 40%);
+//   transition: 0.5s;
+// }
+
+// .grv-widget-tag-bottom-right {
+//   bottom: -55px !important;
+//   right: 0 !important;
+// }

@@ -1,0 +1,831 @@
+.main {
+  overflow: hidden;
+  height: auto;
+  width: auto;
+}
+
+.homeContainer {
+  overflow: hidden;
+  height: auto;
+  width: auto;
+
+  .container {
+    background: url("../../assets/images/breezes-bg-container.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  select {
+    -moz-appearance: none;
+    text-indent: 0.04px;
+    text-overflow: '';
+  }
+
+  /* Sidebar */
+  .sidebar-main {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+  }
+
+  .sidebar-top {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 92;
+  }
+
+  .sidebar-top-1 {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 562;
+  }
+
+
+  button {
+    font-size: 12pt;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    color: #4c4c4c;
+    text-decoration: none;
+    background-color: none;
+  }
+
+  /* Title */
+  h1 {
+    font-size: 25pt;
+    font-family: 'Roboto Slab';
+    font-style: initial;
+    font-weight: 200;
+    color: white;
+    width: 100%;
+    text-shadow: 1px 0px 10px black;
+  }
+
+  h2 {
+    margin-top: -20px;
+    font-size: 19pt;
+    font-family: 'Roboto Slab';
+    font-style: initial;
+    font-weight: 200;
+    color: white;
+    width: 800px;
+    text-shadow: 1px 0px 10px black;
+  }
+
+  /* Content container for calculator */
+  .content-calculator {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .view {
+    width: 100%;
+    position: relative;
+    overflow: scroll;
+    min-height: 14px;
+    max-height: 100%;
+    margin-bottom: 14px;
+  }
+  .view::-webkit-scrollbar {
+    visibility: hidden;
+  }
+  .vtrack {
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 2px;
+    right: 20px;
+    bottom: 2px;
+    border-radius: 25px;
+  }
+  
+  .vthumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    width: 50px;
+
+  }
+  
+    .timeline {
+      float: left;
+      width: 2px;
+      height: auto;
+      background-color: white;
+      margin-left: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    .timeline-item {
+      min-height: 130px;
+      width: 100%;
+    }
+
+    .timeline-item-cell {
+      min-height: 180px;
+      width: auto;
+    }
+
+    .timeline-items {
+      float: left;
+      padding-top: 20px;
+    }
+    h3 {
+      margin-top: -20px;
+      font-size: 19pt;
+      font-family: 'Roboto Slab';
+      font-style: initial;
+      font-weight: 200;
+      color: white;
+      width: 800px;
+      text-shadow: 1px 0px 10px black;
+  
+    }
+  
+    /* Cell */
+    .cell-item {
+      float: left;
+      margin-top: 10px;
+      margin-right: 20px;
+      width: 177px;
+      height: 104px;
+    }
+
+    .cell-select {
+      padding: 10px;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    
+
+    .cell-icon {
+      width: 100%;
+      height: 70px;
+      box-sizing: border-box;
+    }
+    .cell-icon-1-image {
+      background: url("../../assets/images/may-nov.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+    .cell-icon-2-image {
+      background: url("../../assets/images/dec-apr.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+    .cell-icon-3-image {
+      background: url("../../assets/images/3stars-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+    .cell-icon-4-image {
+      background: url("../../assets/images/4stars-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-5-image {
+      background: url("../../assets/images/5stars-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-6-image {
+      background: url("../../assets/images/1food-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-7-image {
+      background: url("../../assets/images/2food-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-8-image {
+      background: url("../../assets/images/3food-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-9-image {
+      background: url("../../assets/images/beach-calc-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-10-image {
+      background: url("../../assets/images/swim-calc-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-11-image {
+      background: url("../../assets/images/dive-calc-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-12-image {
+      background: url("../../assets/images/beer-calc-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+    .cell-icon-13-image {
+      background: url("../../assets/images/wine-calc-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-icon-14-image {
+      background: url("../../assets/images/cocktail-calc-dark.png") no-repeat center center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cell-text {
+      font-size: 11pt;
+      font-family: 'roboto';
+      font-style: normal;
+      font-weight: 200;
+      color: #515151;
+      text-align: center;
+      padding-bottom: 3px;
+      margin: 0;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    /* Backgrounds per cell */
+    /* has to be reduced to two for dynamic use */
+    
+    // cell 1
+    .cellOneEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellOneDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 2
+    .cellTwoEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellTwoDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 3
+    .cellThreeEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellThreeDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 4
+    .cellFourEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellFourDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 5
+    .cellFiveEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellFiveDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 6
+    .cellSixEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellSixDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 7
+    .cellSevenEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellSevenDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 8
+    .cellEightEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellEightDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 9
+    .cellNineEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellNineDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 10
+    .cellTenEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellTenDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 11
+    .cellElevenEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellElevenDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 12
+    .cellTwelveEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellTwelveDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell 13
+    .cellThirteenEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellThirteenDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+    // cell fourteen
+    .cellFourteenEnabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc.png");
+    }
+
+    .cellFourteenDisabled {
+      float: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      margin-top: -104;
+      background: url("../../assets/images/button-calc-active.png");
+    }
+
+    /* Item titles */
+    .timeline-title {
+      font-size: 17pt;
+      font-family: 'roboto';
+      font-style: normal;
+      font-weight: 400;
+      color: white;
+      width: auto;
+    }
+
+    .timeline-dot {
+      float: left;
+      margin-left: -10px;
+      border-radius: 50%;
+      width: 17px;
+      height: 17px;
+      background-color: white;
+    }
+
+    .timeline-inner-dot {
+      border-radius: 50%;
+      margin-top: 3px;
+      margin-left: 3px;
+      width: 11px;
+      height: 11px;
+      background-color: #0495a8;
+    }
+
+    .timeline-item-content {
+      float: left;
+      margin-left: 20px;
+      margin-top: -5px;
+      width: auto;
+    }
+
+    /* Dropdown */
+    .dropdown {
+      margin-top: 10px;
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      height: 55px;
+      width: 360px;
+      background: white;
+      border: 1px solid;
+      border-color: #adadad;
+      border-radius: 8px;
+
+      background-image: url("../../assets/images/nights-icon.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    }
+
+    .dropdown:before,
+    .dropdown:after {
+      content: '';
+      position: absolute;
+      z-index: 2;
+      top: 9px;
+      right: 10px;
+      width: 0;
+      height: 0;
+      border: 4px dashed;
+      border-color: #888 transparent;
+      pointer-events: none;
+    }
+
+    .dropdown:before {
+      border-bottom-style: solid;
+      border-top: none;
+    }
+
+    .dropdown:after {
+      margin-top: 7px;
+      border-top-style: solid;
+      border-bottom: none;
+    }
+
+    /* Rooms dropdown */
+    .dropdown-people {
+      margin-top: 10px;
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      height: 55px;
+      width: 360px;
+      background: white;
+      border: 1px solid;
+      border-color: #adadad;
+      border-radius: 8px;
+
+      background-image: url("../../assets/images/people-icon.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    }
+
+    .dropdown-people:before,
+    .dropdown-people:after {
+      content: '';
+      position: absolute;
+      z-index: 2;
+      top: 9px;
+      right: 10px;
+      width: 0;
+      height: 0;
+      border: 4px dashed;
+      border-color: #888 transparent;
+      pointer-events: none;
+    }
+
+    .dropdown-people:before {
+      border-bottom-style: solid;
+      border-top: none;
+    }
+
+    .dropdown-people:after {
+      margin-top: 7px;
+      border-top-style: solid;
+      border-bottom: none;
+    }
+
+    /* Dropdown select */
+    .dropdown-select {
+      position: relative;
+      width: 100%;
+      padding-left: 60px;
+      height: 53px;
+
+      font-size: 15pt;
+      font-family: 'roboto';
+      font-style: normal;
+      font-weight: 400;
+
+      color: #62717a;
+      text-shadow: 0 1px white;
+
+      background: rgba(0, 0, 0, 0) !important;
+      border: 0;
+      border-radius: 0;
+      -webkit-appearance: none;
+    }
+
+    .dropdown-select:focus {
+      z-index: 3;
+      width: 100%;
+      color: #394349;
+    }
+
+    .dropdown-select>option {
+      margin: 3px;
+      padding: 6px 8px;
+      text-shadow: none;
+      background: #f2f2f2;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #breezes-price {
+      float: left;
+      background-image: url("../../assets/images/breezes-item.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 368px;
+      height: 240px;
+      margin-top: 15px;
+      margin-right: 15px;
+
+      text-align: center;
+      font-size: 25pt;
+      font-family: 'roboto';
+      font-style: normal;
+      font-weight: 400;
+      color: white;
+      margin-top: 15px;
+
+      box-sizing: border-box;
+      padding-top: 90px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    #breezes-sub-info {
+      text-align: center;
+      font-size: 14pt;
+      font-family: 'roboto';
+      font-style: normal;
+      font-weight: 200;
+      color: white;
+    }
+
+    #hotel-sub-info {
+      text-align: center;
+      font-size: 14pt;
+      font-family: 'roboto';
+      font-style: normal;
+      font-weight: 200;
+      color: white;
+    }
+
+    #other-hotel {
+      float: left;
+      background-image: url("../../assets/images/hotel-x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 368px;
+      height: 240px;
+
+      text-align: center;
+      font-size: 25pt;
+      font-family: 'roboto';
+      font-style: normal;
+      font-weight: 400;
+      color: white;
+      margin-top: 15px;
+
+      box-sizing: border-box;
+      padding-top: 90px;
+    }
+  }
+  .header {
+    width: 100%;
+    height: 70px;
+    background-color: #4DB8FF;
+    // background-image: url("../../assets/images/logoHeader.png");
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: left 50% top 5px;
+  }
+
+  .back-header {
+    // background-image: url("../../assets/images/icons/recent.png");
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    margin-left: 20px;
+    width: 90px;
+    height: 70px;
+    cursor: pointer;
+    background-position: left 0px top 2px;
+  }

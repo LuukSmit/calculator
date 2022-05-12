@@ -1,0 +1,192 @@
+{
+  "form": {
+    "title": "How far can your dollar go in the Bahamas?",
+    "subTitle": "Just tap on the selections below with your preferences and at the bottom clearly see how the cost of Breezes SuperInclusive™ compares to other options in Nassau.",
+    "items": [
+      {
+        "one": {
+          "title": "When are you looking to travel?",
+          "options": [
+            {
+              "type": "image",
+              "date": "MAY - NOV",
+              "url": "../../assets/images/may-nov.png"
+            },
+            {
+              "type": "image",
+              "date": "DEC - APR",
+              "url": "../../assets/images/dec-apr.png"
+            }
+          ]
+        },
+        "two": {
+          "title": "How many nights are you looking to stay?",
+          "options": [
+            {
+              "type": "dropdown",
+              "nights": [
+                {
+                  "one" :{
+                    "value": 1,
+                    "text":"1 night"
+                  },
+                  "two" :{
+                    "value": 2,
+                    "text":"2 nights"
+                  },
+                  "three" :{
+                    "value": 3,
+                    "text":"3 nights"
+                  },
+                  "four" :{
+                    "value": 4,
+                    "text":"4 nights"
+                  },
+                  "five" :{
+                    "value": 5,
+                    "text":"5 nights"
+                  },
+                  "six" :{
+                    "value": 6,
+                    "text":"6 nights"
+                  },
+                  "seven" :{
+                    "value": 7,
+                    "text":"7 nights"
+                  },
+                  "eight" :{
+                    "value": 8,
+                    "text":"8 nights"
+                  },
+                  "nine" :{
+                    "value": 9,
+                    "text":"9 nights"
+                  },
+                  "ten" :{
+                    "value": 10,
+                    "text":"10 nights"
+                  },
+                  "eleven" :{
+                    "value": 11,
+                    "text":"11 nights"
+                  },
+                  "twelve" :{
+                    "value": 12,
+                    "text":"12 nights"
+                  },
+                  "thirteen" :{
+                    "value": 13,
+                    "text":"13 nights"
+                  },
+                  "fourteen" :{
+                    "value": 14,
+                    "text":"14 nights"
+                  },
+                  "threeWeeks" :{
+                    "value": 15,
+                    "text":"3 weeks"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "three": {
+          "title": "How many people might be going?",
+          "people": [
+            {
+              "one" :{
+                "value": 1,
+                "text":"1 person"
+              },
+              "two" :{
+                "value": 2,
+                "text":"2 people"
+              },
+              "three" :{
+                "value": 3,
+                "text":"3 people"
+              },
+              "four" :{
+                "value": 4,
+                "text":"4 people"
+              },
+              "five" :{
+                "value": 5,
+                "text":"5 people"
+              },
+              "six" :{
+                "value": 6,
+                "text":"6 people"
+              }          
+            }
+          ]
+        },
+        "four": {
+          "title": "Regarding accommodations, what comfort level (star rating) do you prefer?",
+          "stars": "Stars"
+        },
+        "five": {
+          "title": "What kind of appetite do you bring on vacations?",
+          "options": [
+            {
+              "one": {
+                "value": 1,
+                "text":"Light Eater(s)"
+              },
+              "two": {
+                "value": 2,
+                "text":"Average"
+              },
+              "three": {
+                "value": 3,
+                "text":"Big"
+              }
+            }
+          ]
+        },
+        "six": {
+          "title": "How active are your days on island vacations?",
+          "options": [
+            {
+              "one": {
+                "value": 1,
+                "text":"None"
+              },
+              "two": {
+                "value": 2,
+                "text":"some"
+              },
+              "three": {
+                "value": 3,
+                "text":"everyday"
+              }
+            }
+          ]
+        },
+        "seven": {
+          "title": "How about nightlife and entertainment?",
+          "options": [
+            {
+              "one": {
+                "value": 1,
+                "text":"Casual"
+              },
+              "two": {
+                "value": 2,
+                "text":"A few Big Nights"
+              },
+              "three": {
+                "value": 3,
+                "text":"everyday"
+              }
+            }
+          ]
+        },
+        "eight": {
+          "title": "Comparison: Breezes vs Hotel X"
+        }
+      }
+    ]
+  }
+}

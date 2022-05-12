@@ -1,0 +1,51 @@
+// for-phone-only
+@media (max-width: 599px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+// for-tablet-portrait-up
+@media (min-width: 600px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+// for-tablet-landscape-up
+@media (min-width: 900px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+// for-desktop-up
+@media (min-width: 1200px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+// for-medium-desktop-up
+@media (min-width: 1400px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+// for-big-desktop-up
+@media (min-width: 1800px) {
+  html {
+    font-size: 7px;
+    // font-size: 62.5%; all sizings based on 1rem == 10px
+  }
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    html {
+      font-size: 6.5px;
+    }
+}

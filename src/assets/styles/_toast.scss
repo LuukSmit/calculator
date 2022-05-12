@@ -1,0 +1,67 @@
+/* TOASTIFY */
+.Toastify {
+  margin-top: $l-size;
+}
+.Toastify__toast-body {
+  font-weight: 500;
+  font-size: 2rem;
+  margin: auto 1rem;
+}
+.Toastify__toast--success {
+  background-color: $success-color;
+  transition: background-color 250ms;
+}
+.Toastify__toast--success:hover {
+  background-color: darken($success-color, 15%);
+}
+.Toastify__toast--error {
+  background-color: $error-color;
+  transition: background-color 250ms;
+}
+.Toastify__toast--error:hover {
+  background-color: darken($error-color, 15%);
+}
+
+.Toastify__close-button {
+  background-color: transparent!important;
+}
+
+.Toastify__toast-container--bottom-center {
+  bottom: auto;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+  transition: all 300ms;
+}
+
+@keyframes zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.zoomOut {
+  animation-name: zoomOut;
+  transition: all 300ms;
+}

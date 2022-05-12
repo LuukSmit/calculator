@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "baseUrl": "./",
+      "paths": {
+        "C4": ["./src/config/C4/index.js"]
+      }
+  },
+  "exclude": [
+      "node_modules"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

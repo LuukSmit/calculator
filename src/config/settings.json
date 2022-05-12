@@ -1,0 +1,207 @@
+{
+  "version": 2,
+  "demo": false,
+  "name": "Template Stack",
+  "baseAppId": 114,
+  "language": [
+    {
+      "id": 114,
+      "code": ["en", "es"],
+      "countries": ["United States", "Spain"],
+      "langFile": "en",
+      "contacts": [
+        {
+          "name": "Chris van Workum",
+          "title": "CEO Nijmegen",
+          "options": [
+            {
+              "label": "Email",
+              "type": "email",
+              "value": "chris@van.workum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "code": ["nl"],
+      "countries": ["Netherlands"],
+      "langFile": "nl"
+    },
+    {
+      "id": 501,
+      "code": ["th"],
+      "countries": ["Thailand"],
+      "langFile": "en"
+    }
+  ],
+  "piwikSiteid": 51,
+  "buttonRules": {
+    "weblink": false,
+    "slideshow": false,
+    "map": false,
+    "salestip": false,
+    "video": true,
+    "audio": false,
+    "youtube": false,
+    "pdf": false,
+    "infographic": false,
+    "vimeo": false
+  },
+  "languageWarnings": false,
+  "multiBrand": {
+    "brandA": {
+      "name": "California",
+      "appId": 123
+    },
+    "brandB": {
+      "name": "True Caribbean",
+      "appId": 178
+    }
+  },
+  "bgVideo": true,
+  "appTitle": "React App",
+  "companyWebsite": "https://www.caribbeanhotelandtourism.com/",
+  "appContentUrl": "https://travpro.yourworldapps.nl/apptool/app/",
+  "newContentUrl": "https://travpro.yourworldapps.nl/API/app/v3/",
+  "directoryUrl": "",
+  "imgixUrl": "https://travpromobileimages.imgix.net/apptool/app/",
+  "buttonBar": {
+    "buttons": [
+      {
+        "text": "home",
+        "target": "/main",
+        "icon": ["fas", "home"],
+        "exact": true
+      },
+      {
+        "text": "train",
+        "target": "/main/training",
+        "icon": ["fas", "graduation-cap"],
+        "exact": false
+      },
+      {
+        "text": "retain",
+        "target": "/main/retain",
+        "icon": ["fas", "book-reader"],
+        "exact": false
+      },
+      {
+        "text": "promote",
+        "target": "/main/promote",
+        "icon": ["fas", "bullhorn"],
+        "exact": true
+      },
+      {
+        "text": "sell",
+        "target": "/main/sell",
+        "icon": ["fas", "chart-line"],
+        "exact": true
+      }
+    ],
+    "orientation": "bottom"
+  },
+  "points": {
+    "introChapters": ["chapter-1", "chapter-2"]
+  },
+  "instagramHash": "fba9f4d844a2d56556b3425a8792a504edd7b470",
+  "social": {
+    "facebook": "https://facebook.com/travpromobile",
+    "twitter": "https://www.instagram.com/travpromobile/",
+    "youtube": "https://www.youtube.com/channel/UCsZehOhpwykoFTBavB2Ycjw",
+    "pinterest": "",
+    "instagram": "https://www.instagram.com/travpromobile/",
+    "flickr": "",
+    "google": "",
+    "linkedin": ""
+  },
+  "contact": {
+    "organisation": "Caribbean Hotel and Tourism Association",
+    "address": "2655 Le Juene Road, Suite 800, Coral Gables, FL 33134",
+    "phone": "Office 305.443.3040",
+    "fax": "Fax 305.675.7977",
+    "email": [
+      "membership@caribbeanhotelandtourism.com",
+      "events@caribbeanhotelandtourism.com"
+    ]
+  },
+  "webpack": {
+    "title": "React Template",
+    "ogURL": "https://template.travpromobile.com/",
+    "ogTitle": "React Template Sales Companion",
+    "ogDescription": "Template Program Sales Companion",
+    "ogImage": "http://cdn.travpromobile.com/apptool/app/178/salesCompanion/bg.jpg"
+  },
+  "website": "http://www.caribbeanhotelandtourism.com/",
+  "googleStore": "#",
+  "appleStore": "#",
+  "productLinks": {
+    "android": "",
+    "ios": "",
+    "web": ""
+  },
+  "sharing": {
+    "infographicEmailSubject": "Sharing information on React Template with you",
+    "infographicEmailCopy": "I thought this would interest you. Take a minute to view the attached content. Look forward to connecting with you soon!",
+    "imageEmailSubject": "Insider information on React Template, just for you!",
+    "imageEmailCopy": "I hope you enjoy this information I've enclosed on the great city of React Template",
+    "videoEmailSubject": "A React Template video, enjoy!",
+    "videoEmailCopy": "I thought you would enjoy this React Template video. Please click on the link below to watch. Can't wait to hear from you!",
+    "twitter": "Consider taking your next vacation in React Template..."
+  },
+  "sentry": {
+    "dsn": "https://8794356c9c5d41ac814b07402bffbb4b@sentry.io/4615165",
+    "debug": false,
+    "maxBreadcrumbs": 50
+  },
+  "hasFastTrack": false,
+  "storageKeys": {
+    "announcement": "announcement",
+    "appId": {
+      "name": "appId",
+      "expires": 3153600000
+    },
+    "activeSubApp": "activeSubApp",
+    "chapters": {
+      "name": "chapters",
+      "expires": 14400000
+    },
+    "diplomaShown": "diplomaShown",
+    "fastFacts": "fastFacts",
+    "favorites": "favorites",
+    "googleForm": "googleForm",
+    "image-library": "image-library",
+    "lang": {
+      "name": "lang",
+      "expires": 3153600000
+    },
+    "lastCheckedMessage": "lastCheckedMessage",
+    "lastSearchQuery": "lastSearchQuery",
+    "pages": "pages",
+    "points": "points",
+    "progress": "progress",
+    "toolbox": "toolbox",
+    "user": {
+      "name": "user",
+      "expires": 3153600000
+    },
+    "video-library": "video-library",
+    "brochures": "brochures",
+    "images": "images",
+    "hasViewedDiploma": "hasViewedDiploma"
+  },
+  "userKeys": {
+    "progress": "progress",
+    "user": "user"
+  },
+  "contentKeys": {
+    "chapters": "chapters",
+    "fastFacts": "fastFacts",
+    "images": "images",
+    "pages": "pages",
+    "progress": "progress",
+    "toolbox": "toolbox",
+    "videos": "videos"
+  }
+}

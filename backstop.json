@@ -1,0 +1,67 @@
+{
+  "id": "React-calculator",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1680,
+      "height": 916
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "login",
+      "url": "http://localhost:8080/logout",
+      "hideSelectors": [".cookieConsent"],
+      "delay": 5000
+    },
+    {
+      "label": "main",
+      "url": "http://localhost:8080/main",
+      "hideSelectors": [".cookieConsent"],
+      "delay": 5000
+    },
+    {
+      "label": "main/training",
+      "url": "http://localhost:8080/main/training",
+      "hideSelectors": [".cookieConsent"],
+      "delay": 5000
+    },
+    {
+      "label": "main/promote",
+      "url": "http://localhost:8080/main/promote",
+      "hideSelectors": [".cookieConsent"],
+      "delay": 5000
+    },
+    {
+      "label": "main/sell",
+      "url": "http://localhost:8080/main/sell",
+      "hideSelectors": [".cookieConsent"],
+      "delay": 5000
+    },
+    {
+      "label": "main/search",
+      "url": "http://localhost:8080/main/search",
+      "hideSelectors": [".cookieConsent"],
+      "delay": 5000
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox", "--window-size=1680,916"],
+    "headless": true
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

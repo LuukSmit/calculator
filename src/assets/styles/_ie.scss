@@ -1,0 +1,242 @@
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+   /* IE10+ specific styles go here */
+
+  html {
+    overflow: hidden;
+    height: 100%;
+  }
+  body {
+    overflow: auto;
+    height: 100%;
+  }
+
+  .contentContainer {
+    width: 130rem;
+    min-height: 100vh;
+  }
+
+   /* TOOLBOX */
+  .toolbox__Grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+
+    .ToolboxCard__Animated {
+      width: 33%;
+      .toolbox__Item {
+        width: 100%;
+      }
+    }
+  }
+
+
+   /* FAST FACTS */
+  .fastfacts__Grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+
+    .fastfactsCard__Animated {
+      width: 48%;
+      padding: 1rem;
+      .fastfacts__Card {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+  
+        .fastfacts__Grid--item {
+          display: flex;
+          width: 100%;
+  
+          .textContainer {
+            width: 70%;
+          }
+  
+          .imageContainer {
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+
+  /* TRAINING */
+  .trainingView {
+    .contentHeader {
+      .container__Progress {
+        .container__progressBar {
+          .progressBar {
+            stroke-width: 2rem;
+          }
+        }
+        .container__progressDiploma {
+          .progressBar {
+            stroke-width: 2rem;
+          }
+        }
+      }
+    }
+  }
+  .trainingGrid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    .trainingCard__Animated {
+      display: flex;
+      width: 31%;
+      .trainingCard {
+        display: flex;
+        width: 100%;
+        margin: $s-size;
+  
+        .progressBar {
+          left: 0px;
+          stroke-width: 2rem;
+        }
+      }
+    }
+  }
+
+
+  /* HOME */
+  .homeContainer {
+    display: flex;
+    width: 130rem;
+    justify-content: center;
+
+    .homeView {
+      -ms-display: grid;
+      -ms-grid-columns: 1fr;
+      margin: 100px auto 0 auto;
+    }
+  }
+
+  /* SEARCH */
+  .search__container {
+    .search__result--grid {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      a {
+        width: 45%;
+        display: inline;
+        .search__result--item {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .subApps {
+    .subApp__Card {
+      width: 31%;
+      margin: 1rem !important;
+      .subApp__Card--content {
+        h4 {
+          margin: 3rem !important;
+        }
+      }
+    }
+    .progressBar {
+      left: 0px;
+      stroke-width: 2rem;
+    }
+  }
+
+    /* COLLECTIONVIEW */
+
+    .collection__Container {
+      .imageGrid__Container {
+        .imageGrid__Grid {
+          display: flex;
+          flex-wrap: wrap;
+          margin: auto;
+          width: 130rem;
+          position: relative;
+          .imageGrid_Card {
+            width: 25%;
+          }
+          .imageGrid_Card::after {
+            background-color: rgba(0,0,0,0);
+          }
+        }
+      }
+      .videoGrid__Container {
+        .videoGrid__Grid {
+          display: flex;
+          flex-wrap: wrap;
+          margin: auto;
+          width: 130rem;
+          position: relative;
+          .videoGrid_Card {
+            width: 25%;
+          }
+          .videoGrid_Card::after {
+            background-color: rgba(0,0,0,0);
+          }
+          .videoGrid_Card::before {
+            background-color: rgba(0,0,0,0);
+          }
+        }
+      }
+    }
+
+
+  /* FAVORITES */
+  .favorite__Grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0;
+
+    .favorite__card {
+      display: flex;
+      width: 31%!important;
+      margin: $s-size;
+    }
+
+    .favorite__card--web {
+      display: flex;
+      width: 31%!important;
+      margin: $s-size;
+    }
+  }
+
+  /* FOOTER */
+  .footer__center {
+    .logo {
+      display: none;
+    }
+  }
+
+  /* HIDE MOBILE MENU */
+  @media screen and (max-width: 1050px) {
+    li {
+      padding: $s-size!important;
+      display: block!important;
+      margin: 0;
+    }
+
+    // Account
+    li:nth-child(n+7) {
+      margin: 0!important;
+      padding: 0!important;
+
+      button:nth-child(n+1) {
+        padding: $m-size;
+        margin: 0!important;
+      }
+    }
+
+    .navBurger {
+      display: none!important;
+    }
+
+    li:nth-child(n+6) {
+      margin: $l-size 0!important;
+    }
+  }
+}
