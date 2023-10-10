@@ -73,7 +73,7 @@
     "react-router-hash-link": "^2.3.1",
     "react-script-tag": "^1.1.2",
     "react-select": "3.1.0",
-    "react-spinners": "0.8.1",
+    "react-spinners": "0.13.8",
     "react-spring": "^5.9.2",
     "react-switch": "^3.0.4",
     "react-toastify": "^4.5.2",
