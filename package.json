@@ -82,7 +82,7 @@
     "recursive-readdir": "^2.2.2",
     "request": "^2.88.0",
     "sweetalert2": "9.10.6",
-    "sweetalert2-react-content": "3.0.1",
+    "sweetalert2-react-content": "3.3.3",
     "validator": "8.0.0"
   },
   "devDependencies": {
